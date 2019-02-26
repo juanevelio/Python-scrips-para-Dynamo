@@ -2,7 +2,7 @@
   "Uuid": "324c27d2-3296-466f-b250-352180882ce7",
   "IsCustomNode": false,
   "Description": null,
-  "Name": "ejemplo2",
+  "Name": "ejemplo3",
   "ElementResolver": {
     "ResolutionMap": {}
   },
@@ -41,15 +41,6 @@
           "Level": 2,
           "UseLevels": false,
           "KeepListStructure": false
-        },
-        {
-          "Id": "2c6440fb0c944824bae095fed4d0ac35",
-          "Name": "IN[2]",
-          "Description": "Input #2",
-          "UsingDefaultValue": false,
-          "Level": 2,
-          "UseLevels": false,
-          "KeepListStructure": false
         }
       ],
       "Outputs": [
@@ -68,8 +59,8 @@
     },
     {
       "ConcreteType": "CoreNodeModels.Input.Filename, CoreNodeModels",
-      "HintPath": "C:\\Users\\juan\\Desktop\\SCRIPS_PYTHON\\DYNAMO\\sample2\\ejemplo2.py",
-      "InputValue": "C:\\Users\\juan\\Desktop\\SCRIPS_PYTHON\\DYNAMO\\sample2\\ejemplo2.py",
+      "HintPath": "C:\\Users\\juan\\Desktop\\SCRIPS_PYTHON\\DYNAMO\\sample3 - variables\\ejemplo3.py",
+      "InputValue": ".\\ejemplo3.py",
       "NodeType": "ExtensionNode",
       "Id": "0b52985368d343e49a4cf7dc3b115a93",
       "Inputs": [],
@@ -120,12 +111,12 @@
     {
       "ConcreteType": "Dynamo.Graph.Nodes.CodeBlockNodeModel, DynamoCore",
       "NodeType": "CodeBlockNode",
-      "Code": "0;\n2;\n3;",
+      "Code": "1.2;\n30;",
       "Id": "5f3ed205abad4916be2679e9c6be8d35",
       "Inputs": [],
       "Outputs": [
         {
-          "Id": "9c7303bcd3d54844ac84c27134c6079d",
+          "Id": "64247621956e4f408ff10f15d0c93918",
           "Name": "",
           "Description": "Value of expression at line 1",
           "UsingDefaultValue": false,
@@ -134,18 +125,9 @@
           "KeepListStructure": false
         },
         {
-          "Id": "17b59a11955d41ab970ffb3cb9026845",
+          "Id": "748f5f6333e64e5c8ea1b12342637e9c",
           "Name": "",
           "Description": "Value of expression at line 2",
-          "UsingDefaultValue": false,
-          "Level": 2,
-          "UseLevels": false,
-          "KeepListStructure": false
-        },
-        {
-          "Id": "fb0ca2f93dd24c5a845bb648f74da97c",
-          "Name": "",
-          "Description": "Value of expression at line 3",
           "UsingDefaultValue": false,
           "Level": 2,
           "UseLevels": false,
@@ -160,27 +142,22 @@
     {
       "Start": "5b07a5ac675442da88ab73220ef75a20",
       "End": "4e8d54cf0b2a4140a80f2a0d8bd32001",
-      "Id": "64ced9f9daf342d1a25518c153653851"
+      "Id": "8ffe2ac971db4244a50c233938e959ba"
     },
     {
       "Start": "0f13f1656de84d3d8978b9cbc0e67daa",
       "End": "41d1246033ad40c9a10e0406aba84ff6",
-      "Id": "ccae99dee7e34d7e8ab1a8afc17462a8"
+      "Id": "c816e1b573ca485e9eff986d836124b1"
     },
     {
-      "Start": "9c7303bcd3d54844ac84c27134c6079d",
+      "Start": "64247621956e4f408ff10f15d0c93918",
       "End": "32b30caccde04710ad1f8fd458498fb0",
-      "Id": "877baa4a83d14e8b8699ebe0cf090422"
+      "Id": "40301e66aa2f4c739fa3fd0e9065eaff"
     },
     {
-      "Start": "17b59a11955d41ab970ffb3cb9026845",
+      "Start": "748f5f6333e64e5c8ea1b12342637e9c",
       "End": "5728a951ff654de79395f04a402b3c99",
-      "Id": "3f89dc4028e8437d81faa0d343a9a885"
-    },
-    {
-      "Start": "fb0ca2f93dd24c5a845bb648f74da97c",
-      "End": "2c6440fb0c944824bae095fed4d0ac35",
-      "Id": "d85cd7a7df024987b79e3f6b5d604c11"
+      "Id": "d2c36888efaf4454afed54fcc9852e9b"
     }
   ],
   "Dependencies": [],
@@ -214,8 +191,8 @@
         "IsSetAsInput": false,
         "IsSetAsOutput": false,
         "Excluded": false,
-        "X": 936.5,
-        "Y": 172.0
+        "X": 1099.6050213976059,
+        "Y": 152.19439025886209
       },
       {
         "ShowGeometry": true,
@@ -234,8 +211,8 @@
         "IsSetAsInput": false,
         "IsSetAsOutput": false,
         "Excluded": false,
-        "X": 516.0,
-        "Y": 31.0
+        "X": 356.39008620377126,
+        "Y": 126.53294110431204
       },
       {
         "ShowGeometry": true,
@@ -249,8 +226,8 @@
       }
     ],
     "Annotations": [],
-    "X": -33.284809366984547,
-    "Y": 93.191810246479179,
-    "Zoom": 0.822695359375
+    "X": -24.533679934386782,
+    "Y": 37.616942011894366,
+    "Zoom": 0.80935718288419589
   }
 }
